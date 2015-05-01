@@ -6,7 +6,6 @@ import (
 // 1.1.14
 func histogram(a []int, m int) []int {
 	result := make([]int, m)
-	fmt.Pri
 	for i := 0; i < len(a); i++ {
 		result[a[i]] = result[a[i]] + 1;
 	}
